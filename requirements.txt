@@ -1,0 +1,73 @@
+// Requirements for our project
+
+// we are a book management company
+
+//books 
+
+// ISBN, title, pub date , language , num page , author[] , category[]
+
+
+//Authors
+// id , name , book[]
+
+//Publications
+// id , name , books[]
+
+
+// what are all the API that we need......
+
+//GET
+//Books
+//we need an API
+//to get all the books (done)
+// to get a specific books  (done)
+//to get list of book based on category (done)
+//to get list of books based on languages (done)
+
+//post
+//add new book (done)
+
+//put
+//update book title (done)
+//delete an author
+
+//delete
+//delete all books 
+//delete an author
+
+
+//Authors
+
+// GET
+// we need an API 
+//to get all authors (done)
+//to get specific authors
+// to get list of authors based on books 
+
+//post
+//ADD new author (done)
+
+//put
+//update Author name (done)
+
+//delete
+//delete an author
+
+// publication
+
+//GET
+//we need an API 
+// to get all publication (done)
+//to get specific publication
+//to get list of publication based on book
+
+//post
+//ADD new publication (done)
+
+//put
+//update publication name (done)
+//update/add books to publication 
+
+//delete
+//delete the publication
+//delete the book
