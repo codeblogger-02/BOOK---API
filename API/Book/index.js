@@ -100,12 +100,19 @@ method      - post
 */
 
 Router.post("/add", async (req,res)=>{
+    try {
+        
     const { newBook } = req.body;
 
-    const addNewBook = BookModel.create(newBook);
+    await BookModel.create(newBook);
 
     // database.books.push(newBook);
-    return res.json({books:addNewBook, message:"book was added"});
+    return res.json({ message:"book was added"});
+        
+    } catch (error) {
+        return res.json({error: error.message});
+    }
+
 });
 
 /*
